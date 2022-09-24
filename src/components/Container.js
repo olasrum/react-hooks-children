@@ -3,8 +3,8 @@ import React from "react";
 function Container({
   header,
   children,
-  textPosition = "", // possible values: left, right, center
-  direction = "horizontal", // possible values: vertical, horizontal
+  textPosition = "center", // possible values: left, right, center
+  direction = "center", // possible values: vertical, horizontal
   contentPosition = "center", // possible values: left, right, center
 }) {
   return (
